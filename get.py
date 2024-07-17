@@ -11,7 +11,7 @@ while True:
             print("random",message)
         
     except KeyboardInterrupt:
-        break
+        raise
 
 print("stopping")
 yapper.shutup()
